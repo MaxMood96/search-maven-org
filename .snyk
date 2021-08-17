@@ -1,0 +1,37 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - protractor > browserstack > https-proxy-agent:
+        patched: '2021-08-17T04:40:04.888Z'
+    - protractor > saucelabs > https-proxy-agent:
+        patched: '2021-08-17T04:40:04.888Z'
+    - '@angular/cli > pacote > make-fetch-happen > https-proxy-agent':
+        patched: '2021-08-17T04:40:04.888Z'
+    - '@angular/cli > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2021-08-17T04:40:04.888Z'
+    - '@angular/cli > @schematics/update > pacote > make-fetch-happen > https-proxy-agent':
+        patched: '2021-08-17T04:40:04.888Z'
+    - '@angular/cli > @schematics/update > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2021-08-17T04:40:04.888Z'
+  SNYK-JS-LODASH-567746:
+    - karma > lodash:
+        patched: '2021-08-17T04:40:04.888Z'
+    - '@angular/cli > inquirer > lodash':
+        patched: '2021-08-17T04:40:04.888Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > async > lodash:
+        patched: '2021-08-17T04:40:04.888Z'
+    - karma > log4js > streamroller > lodash:
+        patched: '2021-08-17T04:40:04.888Z'
+    - karma > log4js > streamroller > async > lodash:
+        patched: '2021-08-17T04:40:04.888Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2021-08-17T04:40:04.888Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-08-17T04:40:04.888Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-08-17T04:40:04.888Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-08-17T04:40:04.888Z'
